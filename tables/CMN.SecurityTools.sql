@@ -1,0 +1,4 @@
+CREATE TABLE CMN.SecurityTools (
+	SecToolId INT NOT NULL IDENTITY(1,1)
+	,SecurityTool NVARCHAR(300) NOT NULL
+	,PRIMARY KEY (SecToolId))

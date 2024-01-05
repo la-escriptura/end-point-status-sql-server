@@ -1,0 +1,4 @@
+CREATE TABLE CMN.Instances (
+	InstanceId INT NOT NULL IDENTITY(1,1)
+	,Instance NVARCHAR(300) NOT NULL
+	,PRIMARY KEY (InstanceId))
